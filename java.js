@@ -7,23 +7,26 @@ let results = document.querySelector(".results");
 let picture = document.querySelector(".picture");
 button.onclick = function(){
 
-    console.log("click check");
+    
 
     let answer1 = input1.value;
     let answer2 = input2.value;
    
 
 if (answer1 === "Y" && answer2 === "Y"){
-    console.log("check");
+  console.log("mom");
+    results.innerHTML = "ur mom";
+    results.insertAdjacentHTML('beforeend' <img src= "sad_frog.png">;)
+    }
 
-    //results.innerHTML = "ur mom";
-    results.innerHTML= ("img").src="buff_frog.png";
-    } 
-
-
-//else if (answer1 === "Y" && answer2 ==="N"){
-  //  console.log("hi")
+else if(answer1 === "Y" && answer2 ==="N"){
+  results.innerHTML = "A";
 }
-
-
+else if (answer1 ==="N" && answer2 === "Y"){
+  results.innerHTML = "B";
+}
+else if (answer1 ==="N" && answer2 === "N"){
+  results.innerHTML = "C";
+}
+}
 
