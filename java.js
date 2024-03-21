@@ -15,18 +15,33 @@ button.onclick = function(){
 
 if (answer1 === "Y" && answer2 === "Y"){
   console.log("mom");
-    results.innerHTML = "ur mom";
-    results.insertAdjacentHTML('beforeend' <img src= "sad_frog.png">;)
-    }
+    results.innerHTML = 
+    `
+    <p> You're a buff frog!</p>
+    <img src= "buff_frog.png">
+    `
+    ;}
 
 else if(answer1 === "Y" && answer2 ==="N"){
-  results.innerHTML = "A";
-}
+  results.innerHTML = 
+  `
+  <p> You're a sad frog :( </p>
+  <img src = "sad_frog.png">
+  `
+;}
 else if (answer1 ==="N" && answer2 === "Y"){
-  results.innerHTML = "B";
-}
+  results.innerHTML = 
+  `
+  <p> You're a sassy frog! </p>
+  <img src = "sassy_frog.png">
+  `
+;}
 else if (answer1 ==="N" && answer2 === "N"){
-  results.innerHTML = "C";
-}
+  results.innerHTML =  
+  `
+  <p> You're a chill frog! </p>
+  <img src = "chill_frog.png">
+  `
+;}
 }
 
